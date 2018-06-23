@@ -380,6 +380,7 @@ mid .mid_column p {
 	margin-left: 20px;
 	margin-right: 20px;
 }
+/*
 .button {
 	width: 200px;
 	margin-top: 40px;
@@ -405,44 +406,30 @@ mid .mid_column p {
 	color: #C4C4C4;
 	cursor: pointer;
 }
+*/
 
 footer {
-	width: 100%;
-	height: 50px;
+	height: 60px;
 	background-color: #707070;
 	border-top: 1px solid #2C9AB7;
 }
-.copyright {
-/*
-	text-align: left;
-	padding-left: 25px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	background-color: #707070;
-	color: #009CB3;
-	text-transform: uppercase;
-	font-weight: bolder;
-	letter-spacing: 2px;
-	border-top-width: 2px;
-*/
 
+.copyright {
+	width: 90%;
 	color: #009CB3;
-	font-weight: bold;
-	text-align: left;
 	font-family: Impact;
 	font-size:20px;
-	width: 25%;
+}
+footer .copyright h1 {
 	float: left;
-/*	margin-bottom: 15px;*/
+	text-align: left;
 	margin-left: 25px;
-	letter-spacing: 2px;
 }
 
-#end {
-  left:100px;
-  height:50px;
-  width:500px;
-  bottom:25px;
+footer .copyright p {
+	float: right;
+	text-align: right;
+	margin-right: 5px;
 }
 
 /*
